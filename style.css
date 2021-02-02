@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
 
 body {
-	background-image: linear-gradient(0deg, ghostwhite, grey);
+	background-image: linear-gradient(0deg, ghostwhite, #000);
 	font-family: 'Montserrat';
 	display: grid;
 	place-content: center;
@@ -10,7 +10,7 @@ body {
 
 
 .title {
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.9);
 	padding: 1em 4em;
 	border-radius: 30px 90px;
 }
