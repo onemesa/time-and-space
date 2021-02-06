@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
 
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+body {
+	font-family: 'Montserrat';
+	display: grid;
+	place-content: center;
+	background: #1c1c1c;
+	color: white;
+}
+
+h1 {
+	font-size: 2.4em;
+	margin-top: 0;
+}
+
+p {
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+span {
+	position: relative;
+}
+
+span:before {
+	position: absolute;
+	content: '';
+	background: green;
+	width: 80%;
+	height: 0.1em;
+	bottom: 0.1em;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+
 body {
 	background-image: linear-gradient(0deg, ghostwhite, #000);
 	font-family: 'Montserrat';
@@ -24,5 +80,5 @@ p {
 	font-size: 1.5em;
 	margin-bottom: 0.6em;
 	color: #000;
-}
+}*/
 
