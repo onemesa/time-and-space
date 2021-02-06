@@ -10,7 +10,9 @@ body {
 	font-family: 'Montserrat';
 	display: grid;
 	place-content: center;
-	background: #1c1c1c;
+	/*background: #1c1c1c;*/
+	background: rgb(0,0,0);
+	background: linear-gradient(289deg, rgba(0,0,0,1) 7%, rgba(113,174,33,1) 7%, rgba(113,174,33,1) 14%, rgba(0,0,0,1) 14%, rgba(0,0,0,1) 30%, rgba(113,174,33,1) 30%, rgba(113,174,33,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 59%, rgba(113,174,33,1) 59%, rgba(113,174,33,1) 71%, rgba(0,0,0,1) 71%);
 	color: white;
 }
 
